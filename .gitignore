@@ -1,0 +1,12 @@
+# Generated context bundle (rebuild with tools/build-context.ps1)
+dist/
+
+# Personal info — repo is public, keep local only
+docs/founder-profile.md
+
+# Secrets — never commit
+.env
+.env.*
+*.key
+*.pem
+secrets/
